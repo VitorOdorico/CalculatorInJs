@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p{
+    color: black;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 20, 20);
+    
+}
+
+
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(33, 33, 33);
+    color: whitesmoke;
+    border-radius: 2px;
+    border:solid 1px rgb(33, 33, 33);
+   
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+.button_pont{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(33, 33, 33);
+    color: whitesmoke;
+    border-radius: 2px;
+    border:solid 1px rgb(33, 33, 33);
+    cursor: pointer;
+  
+}
+
+.button_0{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(33, 33, 33);
+    color: whitesmoke;
+    border-radius: 2px;
+    border:solid 1px rgb(33, 33, 33);
+    cursor: pointer;
+    
+}
+.button_equal{
+    width: 50px;
+    height: 106px;
+    background-color: rgb(33, 33, 33);
+    color: whitesmoke;
+    border-radius: 2px;
+    border:solid 1px rgb(33, 33, 33);
+    cursor: pointer;
+}
+.button_equal:hover{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+.button_0:hover{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+.button_pont:hover{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+#result{
+    padding: 5px;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: right;
+    width: 206px;
+    height: 45px;
+    background-color: rgb(33, 33, 33);
+    margin-left: 2px;
+}
